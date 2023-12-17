@@ -3,9 +3,56 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0E659251-DD44-4C13-8E69-940BAD233F81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{600B968A-D821-441A-AACA-7B485205102C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olx.Api", "Olx.Api\Olx.Api.csproj", "{F6CCC7D1-4F4D-4295-A94B-955218841018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olx.Service", "Olx.Service\Olx.Service.csproj", "{579F4792-B8DA-4693-85CE-0E78B7464462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olx.Data", "Olx.Data\Olx.Data.csproj", "{8870E771-85EA-4B1B-8F3A-7EF4ACD70703}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olx.Domain", "Olx.Domain\Olx.Domain.csproj", "{D818F2F9-D3B5-48EF-8586-FB06DC99C593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olx.ViewModel", "Olx.ViewModel\Olx.ViewModel.csproj", "{F49A5051-CEF6-4939-90A7-CC27D83F6F6A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6CCC7D1-4F4D-4295-A94B-955218841018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6CCC7D1-4F4D-4295-A94B-955218841018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6CCC7D1-4F4D-4295-A94B-955218841018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6CCC7D1-4F4D-4295-A94B-955218841018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{579F4792-B8DA-4693-85CE-0E78B7464462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{579F4792-B8DA-4693-85CE-0E78B7464462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{579F4792-B8DA-4693-85CE-0E78B7464462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{579F4792-B8DA-4693-85CE-0E78B7464462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8870E771-85EA-4B1B-8F3A-7EF4ACD70703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8870E771-85EA-4B1B-8F3A-7EF4ACD70703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8870E771-85EA-4B1B-8F3A-7EF4ACD70703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8870E771-85EA-4B1B-8F3A-7EF4ACD70703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D818F2F9-D3B5-48EF-8586-FB06DC99C593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D818F2F9-D3B5-48EF-8586-FB06DC99C593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D818F2F9-D3B5-48EF-8586-FB06DC99C593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D818F2F9-D3B5-48EF-8586-FB06DC99C593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F49A5051-CEF6-4939-90A7-CC27D83F6F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F49A5051-CEF6-4939-90A7-CC27D83F6F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F49A5051-CEF6-4939-90A7-CC27D83F6F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F49A5051-CEF6-4939-90A7-CC27D83F6F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6CCC7D1-4F4D-4295-A94B-955218841018} = {0E659251-DD44-4C13-8E69-940BAD233F81}
+		{579F4792-B8DA-4693-85CE-0E78B7464462} = {0E659251-DD44-4C13-8E69-940BAD233F81}
+		{8870E771-85EA-4B1B-8F3A-7EF4ACD70703} = {0E659251-DD44-4C13-8E69-940BAD233F81}
+		{D818F2F9-D3B5-48EF-8586-FB06DC99C593} = {0E659251-DD44-4C13-8E69-940BAD233F81}
+		{F49A5051-CEF6-4939-90A7-CC27D83F6F6A} = {0E659251-DD44-4C13-8E69-940BAD233F81}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9669CE78-B0BA-4B01-B495-C964D6EA57AD}
