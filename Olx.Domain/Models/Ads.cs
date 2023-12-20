@@ -16,5 +16,5 @@ public class Ads : BaseModel
     public User User { get; set; } = new();
     public SubCategory SubCategory { get; set; } = new();
     public SubRegion SubRegion { get; set; } = new();
-    public List<Image> Images { get; set; } = new List<Image>();
+    public ICollection<Image> Images { get; set; } = new List<Image>();
 }
