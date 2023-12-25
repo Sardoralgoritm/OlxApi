@@ -10,5 +10,6 @@ public class User : IdentityUser
     public string ImageUrl { get; set; } = string.Empty;
     public IsOnline IsOnline { get; set; }
     public DateTime LastOnline { get; set; }
-    public List<Ads> Adses { get; set; } = new List<Ads>();
+    public ICollection<Ads> Adses { get; set; } = new List<Ads>();
+    public ICollection<Chat> Chats { get; set; } = new List<Chat> { };
 }
